@@ -1,0 +1,24 @@
+{
+    "name": "dotnet-msdeploy-webapp",
+    "version": "1.0.0",
+    "description": "Deploy .NET core to hosted IIS server.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nhatthai/dotnet-msdeploy-webapp.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/nhatthai/dotnet-msdeploy-webapp/issues"
+    },
+    "homepage": "https://github.com/nhatthai/dotnet-msdeploy-webapp#readme",
+    "dependencies": {
+      "@actions/core": "^1.2.6",
+      "@actions/github": "^2.1.1"
+    }
+}

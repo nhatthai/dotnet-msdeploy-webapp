@@ -1,0 +1,24 @@
+name: "GitHub Actions MSDeploy"
+description: "Deploy a WebApp to IIS using MSDeploy"
+author: "nhatthai"
+branding:
+  icon: upload-cloud
+  color: blue
+inputs:
+  APP_NAME:
+    description: "IIS App name"
+    required: true
+  PHYSICAL_PATH:
+    description: "The path to the source directory that will be deployed"
+    required: true
+  IIS_WEBSITE_NAME:
+    description: "IIS website name"
+  IIS_COMPUTER_NAME:
+    description: "Computer Name(IP) will be deployed"
+  IIS_SERVER_USERNAME:
+    description: "UserName Account"
+  IIS_SERVER_PASSWORD:
+    description: "Password Account"
+runs:
+  using: 'node16'
+  main: 'index.js'
